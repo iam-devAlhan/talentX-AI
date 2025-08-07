@@ -15,7 +15,8 @@ uri = f"mongodb+srv://{MONGO_USER}:{MONGO_PASSWORD}@{MONGO_CLUSTER}.igv4jfg.mong
 # Create a new client and connect to the server
 client = MongoClient(uri, server_api=ServerApi('1'))
 db = client.get_database(MONGO_DATABASE)
-collection = db["users"]
+users_collection = db["users"]
+rev_embeddings_collection = db["review_embeddings"]
 
 def connect_db():  
 # Send a ping to confirm a successful connection
