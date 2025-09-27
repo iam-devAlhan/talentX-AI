@@ -1,2 +1,4 @@
 # talentX-AI
-TalentX is a Mobile Application Powered by AI which helps to recommend jobs or internships to newbies and helps to flag suspicious and fake internships or jobs. Using React Native for Mobile App Frontend and FastAPI for backend, LangChain as Core AI Functionality with RAGs pipelines
+TalentX is a platform where a user can chat with chatbot and get recommendations regarding career path, internships and help to detect red flags in an internships. Built with FastAPI for API and Streamlit for UI (testing purpose), Chatbot powered with Groq and RAG Pipeline using LangChain and MongoDB as Vector DB (Atlas Vector Search) and for primary data persistence.
+
+Authentication, Job Feeds, Resume Scanning and Mobile App in Future Development.
